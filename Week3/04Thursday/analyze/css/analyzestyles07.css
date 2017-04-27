@@ -1,0 +1,74 @@
+/* Lucas Dina */
+
+/* Style for body specifies a background color */
+body {
+	background-color: #FFFFFF;
+}
+
+/* Style for the container element */
+#container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style for the header element */
+header {
+	font-family: Verdana, Arial, sans-serif;
+	background-color: #FFFFFF;
+	color: #4E9657;
+	padding: 0.5%;
+	margin-left: 1%;
+	font-size: 3em;
+}
+
+/* Style for the nav element */
+nav {
+	padding: 0.5%;
+}
+
+/* Style for the nav list item elements */
+nav li {
+	display: inline;
+}
+
+/* Style for the nav links element */
+nav li a {
+	color: #4E9657;
+	padding-left: 2%;
+	padding-right: 2%;
+	text-decoration: none;
+}
+
+/* Style for the footer element */
+footer {
+	font-size: .70em;
+	text-align: center;
+}
+main{
+    padding-bottom: .001em;
+    padding-right: .5em;
+    padding-left: .5em;
+    padding-top: .001em;
+    background-color: #4E9657;
+}
+section{
+    background-color: #FFFFFF;
+    margin-top: .5em;
+    padding: 5%;
+    margin-bottom: .5em;
+}
+article{
+    border-top-color: #4E9647;
+    border-top-style: dashed;
+    border-top-width: thin;
+    background-color: #FFFFFF;
+}
+aside{
+    border-radius: 5em;
+    text-align: center;
+    background-color: #4E9657;
+    font-size: 15px;
+    color: white;
+    padding: 3%;
+}

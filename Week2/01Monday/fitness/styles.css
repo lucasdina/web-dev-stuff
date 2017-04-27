@@ -1,0 +1,78 @@
+/*This style page was made by Lucas Dina 4-13*/
+/*style for body specifies background color*/
+body{
+    background-color: #FFFF99
+}
+
+h1{
+    text-align: center;
+}
+/*container style centers and sets width*/
+#container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*top and bottom margins, back color, round border, alignment*/
+header{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 12px 12px 12px #404040;
+    text-align: center;
+}
+/*properties, padding, margins, borders*/
+nav{
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border-top: 5px solid #FFFFFF;
+    border-bottom: 5px solid #FFFFFF;
+}
+/*Block display, properties, margins, padding, rounded border, and shadow*/
+main{
+    display: block;
+    font-family: Verdana, Arial sans-serif;
+    font-size: 1em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 12px 12px 12px #404040
+}
+/*size, alignment, margin*/
+footer{
+    font-size: .70em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.equip{
+    float: left;
+    padding-right: 20px;
+    /*float: left;*/
+}
+
+ul{
+    margin-bottom: 50px;
+    list-style: inside;
+}
+
+ol{
+    list-style-type: lower-roman
+}
+
+dt{
+    font-weight: bold;
+}
+
+dd{
+   padding-bottom: 20px; 
+}

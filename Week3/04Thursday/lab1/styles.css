@@ -1,0 +1,171 @@
+/* Style sheet created by: Student's First Name Student's Last Name, Today's Date */
+
+/* Style for body specifies a background color */
+img{
+    max-width: 100%;
+}
+body {
+	background-color: #FFFFFF;
+}
+
+/* Styles for Mobile Layout */
+
+/* Style for the container centers the page and specifies the width */
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style for the header specifies top margin, background color, rounded corners, and center align content */
+header {
+	font-family: Verdana, Arial, serif;
+	font-size: 2em;
+	margin-top: 0.2em;
+	background-color: #FFFFFF;
+	border-radius: 0.5em;
+	text-align: center;
+}
+
+/* Style for nav specifies text properties */
+nav {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* Style for the main specifies a block display, text properties, margins, padding, rounded corners, and borders  */
+main {
+	display: block;
+	font-family: Georgia, "Times New Roman", sans-serif;
+	font-size: 1em;
+	margin-top: 0.2em;
+	padding: 0.5em;
+	border-top: solid 0.2em #FF6600; 
+	border-bottom: solid 0.2em #FF6600;
+}
+
+/* Style for the footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: .70em;
+	text-align: center;
+    margin-top: 2em;}
+  /* Style specifies padding and margins for unordered list */
+    nav ul {
+           padding: 0;
+           margin-top: 0.5em;
+
+        margin-bottom: 0.5em;
+}
+nav li {
+       background-color: #FF6600;
+ border-radius: 1em;
+list-style-type: none;
+margin: 0.3em;
+padding: 0.4em;
+    }
+/* Style changes navigation link text color to white and
+              removes the underline */
+              nav li a {
+                     color: #FFFFFF;
+                     text-decoration: none;
+}
+/* Style displays the mobile class */
+              .mobile {
+                     display: inline;
+}
+h2{
+    margin: .5em;
+}
+article{
+    margin: .5em;
+}
+
+div p{
+    padding: .75em; 
+}
+
+
+
+
+
+
+
+/*Mobile*/
+@media only screen and (max-width: 480){
+    section {  padding: 1%; text-align: center; }
+    article { border-top: solid 0.2em #FF6600;  padding: 2%; margin: 0.5%; text-align: left; }
+    aside { text-align: center; color: #FFFFFF; background-color: #FF6600; font-size: 1.25em; margin: 1em; padding: 1em; }
+}
+
+
+
+
+
+
+
+/*Tablet*/
+@media only screen and (min-width:481px) {
+    section { background-color: #FF6600; }
+article { background-color: #FFFFFF; border-top: 0; border-radius: 0 3em 3em 3em; margin-bottom: 1em; }
+aside { 
+    margin-top: 2em;
+    text-align: center; color: #FF6600; background-color: #FFFFFF; box-shadow: 1em 1em 1em #000000; border-radius: 8em; }
+    img {
+width: 25%; float: left;
+}
+    article{
+        padding: .5em
+    }
+header p {
+margin-bottom: 4em; padding-top: 1.5em;
+}
+nav li {
+display: inline; float: left; margin-left: 1%; margin-right: 1%; padding-left: 0; padding-right: 0; width: 23%;
+}
+main {
+    background-color: #FF6600;
+clear: left; margin-top: 12em;
+}
+.mobile {
+display: none;
+}
+.desktop {
+display: inline;
+} 
+    section{
+        
+    }
+}
+
+
+
+
+
+
+
+/*Desktop*/
+@media only screen and (min-width:769px) {
+    #container { width: 80%; }
+    nav {
+margin-top: -5em;
+}
+nav ul {
+margin: 0; padding-left: 0.50%; padding-right: 0.50%;
+}
+nav li {
+background-color: #FFFFFF; border-radius: 0; margin-left: 0; margin-right: 0; padding: 0; width: 18%;
+}
+nav li a {
+color: #FF6600; display: inline-block; padding: 0.7em; font-size: 1.25em;
+}
+nav li a:link { color: #FF6600; }
+nav li a:hover { color: #4C1F00; font-style: italic; }
+main {
+     overflow: auto;
+border: none; border-radius: 1em; box-shadow: 1em 1em 1em #331400; margin-top: 1em;
+}
+    section { float: left; width: 60%; }
+    aside { float: right; width: 25%; background-color: #FF6600; color: #FFFFFF; }
+}

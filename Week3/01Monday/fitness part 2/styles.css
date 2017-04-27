@@ -1,0 +1,144 @@
+/*This style page was made by Lucas Dina 4-13*/
+@media only screen and (min-width: 769px) { 
+}
+/*style for body specifies background color*/
+body{
+    background-color: #FFFF99
+}
+
+h1{
+    text-align: left;
+}
+/*container style centers and sets width*/
+#container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*top and bottom margins, back color, round border, alignment*/
+header{
+    margin-top: 0.2em;
+    background-color: #FFFFFF;
+    border-radius: 0.5em;
+    text-align: center;
+}
+/*properties, padding, margins, borders*/
+nav{
+    font-family: Georgia, "Times New Roman" serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    text-align: center;
+}
+nav ul{
+    padding-left: .5%;
+    padding-right: .5%;
+    margin:0;
+    padding: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+nav li{
+    background: #009933;
+    border-top: solid #000000;
+    border-bottom: solid #000000;
+}
+img{
+    background: #FFFFFF;
+    border-radius: .5em
+}
+nav li a{
+    display: inline-block;
+    padding: .7em;
+}
+nav li{
+    white-space: nowrap;
+    display: inline;
+    width: 18%;
+}
+nav li a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+/*Block display, properties, margins, padding, rounded border, and shadow*/
+main{
+    margin-top: 1em;
+    border-style: none;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    box-shadow: 0.5em 0.5em 0.5em #404040;
+    clear: left;
+    margin-top: 4em
+    display: block;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1em;
+    margin-top: .5em;
+    padding: 1em;
+    border-radius: 1em;
+    background-color: #FFFFFF;
+    border-top: solid .2em #009933;
+    border-bottom: solid .2em #009933;
+}
+main p{
+    padding-left: .5em;
+    padding-right: .5em;
+}
+/*size, alignment, margin*/
+footer{
+    font-size: .70em;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.equip{
+    padding-right: 20px;
+    float: left;
+}
+
+ul{
+    margin-bottom: 50px;
+    list-style: inside;
+}
+body {
+background: -moz-lineargradient(#FFFFFF, #FFFF99);
+    background: -o-linear-gradient(#FFFFFF, #FFFF99);
+    background: -webkit-lineargradient(#FFFFFF, #FFFF99);
+    background: linear-gradient(#FFFFFF, #FFFF99);
+    background-attachment: fixed;
+}
+
+ol{
+    list-style-type: lower-roman
+}
+
+dt{
+    font-weight: bold;
+}
+
+dd{
+   padding-bottom: 20px; 
+}
+img{
+    max-width: 100%;
+}
+.items{
+   margin-bottom: 6em; 
+}
+.mobile{
+    display: inline;
+}
+.desktop{
+    display: none;
+}
+.tablet{
+    display: none;
+}
+nav li a:link { color: #FFFFFF; } 
+
+nav li a:visited { color: #000000; } 
+
+nav li a:hover { color: #FFFF00; } 
+
+nav li a:active { color: #0066CC; }
+
+
+/*styles for mobile*/

@@ -1,0 +1,42 @@
+/* Style sheet created by: Student's First Name Student's Last Name, Today's Date */
+
+body {
+	background: url(beach.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
+}
+
+header {
+	height: 5em;
+	background-color: #FFFFFF;
+	margin-bottom: 0.5em;
+    opacity: .9;
+    border-radius: .5em;
+    padding: .5em;
+}
+
+nav {
+	height: 2em;
+	background-color: #FFFFFF;
+	margin-bottom: 1em;
+    opacity: .75;
+    border-radius: .5em;
+    padding: .5em;
+}
+
+main {
+	height: 15em;
+	background-color: #FFFFFF;
+	margin-bottom: 1em;
+	display: block;
+    opacity: .5;
+    border-radius: .5em;
+    padding: .5em;
+}
+
+footer {
+	height: 3em;
+	background-color: #FFFFFF;
+	font-size: 0.8em;
+    opacity: .25;
+    border-radius: .5em;
+    padding: .5em;
+}
