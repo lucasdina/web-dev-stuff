@@ -1,37 +1,34 @@
-
 <!DOCTYPE html>
 <!--This websire template was created by Lucas Dina-->
 <html>
 	<head>
-        <link rel="stylesheet" href="styles.css"> 
-        <script src="scripts/myFunctions.js"></script>
+        <link rel="stylesheet" href="styles.css">
 		<title>
-		Forward Fitness Club
+		Weightless Solutions
 		</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
-
 	<body>
 	<div id="container">
 	<!--Use header area for website name or logo-->
-	<a href="index.html"><img src="images/ffc_logo.png" alt="Forward Fitness Club Logo"></a>
+	<a href="index.html"><img src="images/thang.png" alt="logo"></a>
 		<header>
-		</header>
+        </header>
 		<!--Use nav to add hyperlinks-->
 			<nav>
                 <ul>
 				<li><a href="index.html">Home</a></li>
-				<li><a href="about.html">About Us</a></li> 
-				<li><a href="class.html">Classes</a></li> 
-				<li><a href="nutrition.html">Nutrition</a></li> 
-				<li><a href="contact.html">Contact Us</a></li>
+				<li><a href="about.html">About</a></li> 
+				<li><a href="contact.html">Contact</a></li>
                 </ul>
 			</nav>
 			<!--Use Main to add content-->
 			<main>
-				<h2>Ready to get started? Contact us today.</h2>
-                <h2>Complete the form below to begin your free trial.</h2>
+                <div id="banner" class="desktop">
+                </div>
+            <div class="desktop">
+                <h1>Feel free to contact me any time!</h1>
                 <form><!-- Start Form --> 
                     <label for="fName">First Name:</label>
                     <input type="text" name="fName" id="fName">
@@ -42,16 +39,16 @@
                     <label for="phone">Phone: </label>
                     <input type="tel" id="phone" name="phone">
             
-                <p>I would like more information about:</p>
+                <p id="show">This message is regarding:</p>
                 <ul>
-                <li><input type="checkbox" name="grpfit" id="grpfit" value="grpfit" class="chkbx">Group Fitness</li>
-                    <li><input type="checkbox" name="prtrain" id="prtrain" value="prtrain" class="chkbx">Personal Training</li>
-                    <li><input type="checkbox" name="nutr" id="nutr" value="nutr" class="chkbx">Nutrition</li> 
+                <li><input type="checkbox" name="grpfit" id="grpfit" value="grpfit" class="chkbx">Business Oppurtunity</li>
+                    <li><input type="checkbox" name="prtrain" id="prtrain" value="prtrain" class="chkbx">Potential Employment</li>
+                    <li><input type="checkbox" name="nutr" id="nutr" value="nutr" class="chkbx">Other</li> 
                 </ul>
-                <label for="reference">Referral Source:</label>
+                <label for="reference">How did you hear about me?</label>
                 <select name="reference" id="reference">
-                    <option value="ad">Advertisement</option>
-                    <option value="friend">Friend</option>
+                    <option value="reference">Professional Reference</option>
+                    <option value="friend">Referred by a Friend</option>
                     <option value="google">Google</option>
                     <option value="social">Social Media</option>
                     <option value="other">Other</option>
@@ -63,30 +60,22 @@
                     
                 <input type="reset" id="reset" value="Reset Form" class="btn">
                 </form>
-				<p>We are located at:<br>
-				25743 Bloom Court<br>
-				Locket, GA 85524</p>
-				
-                <p>Phone Number</p>
-				<p><a class="mobile" href="tel:8145559608">(814) 555-9608</a>
-                <span class="desktop">(814) 555-9608</span></p>
+                </div>
 
-				<p>Email Address</p>
-				<p><a href="mailto:forwardfitness@club.net">forwardfitness@club.net</a></p>
-				<br><br>
 			</main>
 			<!--Use footer to add footer content-->
 			<footer>
                 <div id="copyright"> 
-		<p>&copy; Copyright 2015. All Rights Reserved<br>
-            <a href="mailto:forwardfitness@club.net">forwardfitness@club.net</a></p>
+		<p>&copy; Copyright 2017. Weightless Solutions<br>
+            <a href="mailto:lukeadina@gmail.com">lukeadina@gmail.com</a></p>
                 </div>
                 <div id="social">
-                <p>Connect with us:</p>
-                    <p><a href="https://www.facebook.com/ fwdfitclub"><img src="images/fblogo.png" alt="Facebook logo"></a>
-                        <a href="https://twitter.com/ fwdfitclub"><img src="images/twitterlogo.png" alt="Twitter logo"></a></p>
+                    <p><a href="https://github.com/lucasdina"><img src="images/GitHub-Mark-Light-32px.png" alt="Facebook logo"></a>
+                        <a href="https://www.linkedin.com/in/lucas-dina-010ab4134/"><img src="images/linkedin-32px.png" alt="Twitter logo"></a></p>
                 </div>
 			</footer>
 		</div>
 	</body>
+    
+    
 </html>
